@@ -1,8 +1,8 @@
 appName: petclinic-config-server
 env: dev
 image:
-  repository: thuanlp/spring-petclinic-config-server
-  tag: latest
+  repository: ktei8htop15122004/clinic-microservice
+  tag: config-server-3e746fa
   pullSecret: dockerhub
   pullPolicy: Always
 service:
@@ -15,7 +15,7 @@ configMap:
   name: petclinic-config-server-application-properties-configmap
 
 ingress:
-  domainName: config-server-dev.lptdevops.website
+  domainName: config-server-dev.khacthienit.click
   path: /
   pathType: Prefix
 global:

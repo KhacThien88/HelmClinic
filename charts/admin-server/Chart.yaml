@@ -9,10 +9,6 @@ version: 1.0.0
 # Version of the admin Server application
 appVersion: latest
 
-# Maintainers
-maintainers:
-  - name: Thuan Phuc
-    email: thuanlephuc152@gmail.com
 
 dependencies:
   - name: common
