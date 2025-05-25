@@ -7,7 +7,7 @@ global:
       effect: "NoSchedule"
 image:
   repository: ktei8htop15122004/clinic-microservices
-  tag: admin-server-ce70774
+  tag: api-gateway-b15a9a6
 service:
   port: 8080
   type: ClusterIP

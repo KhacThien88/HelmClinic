@@ -10,8 +10,8 @@ service:
   type: ClusterIP
 
 image:
-  repository: thuanlp/spring-petclinic-admin-server
-  tag: latest
+  repository: ktei8htop15122004/clinic-microservices
+  tag: admin-server-ce70774
   pullSecret: dockerhub
   pullPolicy: Always
 initContainers:
